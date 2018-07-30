@@ -1,28 +1,48 @@
-.App {
-  text-align: center;
+.body {
+  margin: 0px;
+  padding: 0px; 
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.head {
+  background-color: black;
+  height: 110px;
+  width: 100%;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.head h2 {
+  color: aliceblue;
+  margin: 0;
+  /* margin-right: 20px; */
+  font-size: 50px;
+  padding: 20px 0px 0px 450px;
 }
-
-.App-title {
-  font-size: 1.5em;
+.form-box {
+  display: block;
+  background-color: aquamarine;
+  width: 40%;
+  height: 450px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 50px;
 }
-
-.App-intro {
-  font-size: large;
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 50px;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.form {
+  margin: auto;
+  padding: 40px;
+}
+button {
+  color: #ccc;
+  background-color: red;
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }
